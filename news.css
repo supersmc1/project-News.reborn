@@ -69,30 +69,92 @@
 
 .Nname{
   width: 40vw;
-  height: 5vh;
+  height: 8vh;
   color: #b3a064;
   font-size: 20px;
   margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.news>li{
+.lists>li{
   color: #9999;
-  width: 60vw;
-  height: 7vh;
-  border: 1px solid red;
+  width: 45vw;
+  height: 6vh;
   font-size: 25px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: #00000056;
+  cursor: pointer;
+}
+
+.lists>li:hover{
+  color:#b3a064 ;
+}
+
+.lists{
+  width: 65vw;
+  height: 55vh;
+}
+
+.pagesnum{
+  width: 65vw;
+  height: 7vh;
+  color: #9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
-
-
-
-
-@media (max-width:1670px) { 
+.pagesnum>div{
+  width: 5vw;
+  height: 5vw;
+  font-size: 30px;
+  cursor: pointer;
 }
 
-@media (max-width:1600px){
-  
+.num1:hover{
+  animation: leftmv 1s ;
+  position: relative;
+}
+.num2:hover{
+  animation: leftmv 1s ;
+  position: relative;
+}.num3:hover{
+  animation: leftmv 1s ;
+  position: relative;
+}.num4:hover{
+  animation: leftmv 1s ;
+  position: relative;
+}.num5:hover{
+  animation: leftmv 1s ;
+  position: relative;
+}.num6:hover{
+  animation: leftmv 1s ;
+  position: relative;
+}.num7:hover{
+  animation: leftmv 1s ;
+  position: relative;
+}
+
+.pagesnum>div:hover{
+  color: #b3a064;
+}
+
+@keyframes leftmv {
+ to{
+  left: 0px;
+ }
+ from{
+  left: 60px;
+ }
 }
 
 @media (max-width:1380px){
@@ -114,7 +176,13 @@
 }
 
 @media (max-width:1070px){
-  
+    .lists>li{
+      font-size: 18px;
+      margin-left: 50px;
+    }
+    .pagesnum>div{
+      font-size: 18px;
+    }
 }
 
 @media (max-width:1000px){
@@ -129,10 +197,25 @@
     display: none;
   }
 
-}
+  .main{
+    height: 84vh;
+  }
 
-@media (max-width:700px) {
+  .first{
+    height: 90vh;
+  }
 
+  .news{
+    width: 90vw;
+  }
+
+  .lists>li{
+    width: 70vw;
+  }
+
+  .pagesnum{
+    width: 100vw;
+  }
 }
 
 @media (max-width:570px) {
@@ -140,11 +223,23 @@
     font-size: 16px;
     margin: 15px;
   }
+
+  .lists>li{
+    margin-left: 25px;
+    font-size: 16px;
+
+  }
+
 }
 
 @media (max-width:500px) {
   .menu>li{
     margin: 8px;
+  }
+
+  .lists>li{
+    margin-left: 15px;
+    font-size: 16px;
   }
 
 }

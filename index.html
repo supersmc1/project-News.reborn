@@ -11,6 +11,15 @@
       margin: 0;
       padding: 0;
     }
+    #root{
+      width: 100vw;
+      height: 124vh;
+    }
+    @media (max-width:800px) {
+      #root{
+        height: 90vh;
+      }
+    }
   </style>
   <title>Document</title>
 </head>
@@ -29,13 +38,21 @@
           <div class="Nname">
             <h1>NEWS</h1>
           </div>
-          <li>22/5/18 [NEWS] 건파이어-리본 모바일 출시 FAQ</li>
-          <li>22/5/18 [NEWS] 업데이트 이슈 공지사항</li>
-          <li>22/5/18 [NEWS] 건파이어-리본 서버관련 유지 공지사항</li>
-          <li>22/5/18 [NEWS] 건파이어-리본 모바일 이벤트 -"FIRST Impression of GRM"</li>
-          <li>22/5/18 [NEWS] 건파이어-리본 모바일 이벤트 -"Veteran's Mark"</li>
-          <li></li>
-          <li></li>
+          <div class="lists">
+            <li class="num1">22/5/18 [NEWS] 건파이어-리본 모바일 출시 FAQ</li>
+            <li class="num2">22/5/18 [NEWS] 업데이트 이슈 공지사항</li>
+            <li class="num3">22/5/18 [NEWS] 건파이어-리본 서버관련 유지 공지사항</li>
+            <li class="num4">22/5/18 [NEWS] 건파이어-리본 모바일 이벤트 -"FIRST Impression of GRM"</li>
+            <li class="num5">22/5/18 [NEWS] 건파이어-리본 모바일 이벤트 -"Veteran's Mark"</li>
+            <li class="num6">22/4/20 [NEWS] Update Notes</li>
+            <li class="num7">22/4/17 [NEWS] Update Notes</li>
+          </div>
+          <div class="pagesnum">
+            <div class="page0"><</div>
+            <div class="page1">1</div>
+            <div class="page2">2</div>
+            <div class="page3">></div>
+          </div>
         </div>
       </div>
     </div>
@@ -60,5 +77,6 @@
       </div>
     </div>
   </div>
+  <script defer src="./news.js"></script>
 </body>
 </html>
