@@ -56,6 +56,9 @@ news11.addEventListener('click',function(){
   window.location = 'https://supersmc1.github.io/project-newsreborn2/'
 })
 
+news12.addEventListener('click',function(){
+  window.location = 'https://supersmc1.github.io/project-newsreborn3/'
+})
 
 
 icon.addEventListener('click',function(){
