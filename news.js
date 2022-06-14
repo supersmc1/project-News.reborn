@@ -60,6 +60,21 @@ news12.addEventListener('click',function(){
   window.location = 'https://supersmc1.github.io/project-newsreborn3/'
 })
 
+news14.addEventListener('click',function(){
+  window.location = 'https://supersmc1.github.io/project-newsreborn4/'
+})
+
+news15.addEventListener('click',function(){
+  window.location = 'https://supersmc1.github.io/project-newsreborn5/'
+})
+
+news16.addEventListener('click',function(){
+  window.location = 'https://supersmc1.github.io/project-newsreborn6/'
+})
+
+news17.addEventListener('click',function(){
+  window.location = 'https://supersmc1.github.io/project-newsreborn7/'
+})
 
 icon.addEventListener('click',function(){
   window.location = 'https://supersmc1.github.io/project-reborn/'
