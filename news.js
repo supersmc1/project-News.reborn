@@ -11,6 +11,8 @@ const page1 = document.querySelector('.page1')
 const page2 = document.querySelector('.page2')
 const page3 = document.querySelector('.page3')
 
+const icon = document.querySelector('.icon')
+
 function onepage(){
   news11.textContent = '22/5/18 [NEWS] 건파이어-리본 모바일 출시 FAQ'
   news12.textContent = '22/5/18 [NEWS] 업데이트 이슈 공지사항'
@@ -44,4 +46,12 @@ page3.addEventListener('click',function(){
 })
 page0.addEventListener('click',function(){
   onepage()
+})
+
+news13.addEventListener('click',function(){
+  window.location = 'https://supersmc1.github.io/project-newsreborn/'
+})
+
+icon.addEventListener('click',function(){
+  window.location = 'https://supersmc1.github.io/project-reborn/'
 })
